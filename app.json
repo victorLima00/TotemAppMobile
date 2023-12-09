@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TotemAppMobile",
-    "slug": "TotemAppMobile",
+    "slug": "totemappmobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cf6c2de6-40af-416f-971d-59cd1b966e9a"
+      }
+    },
+    "owner": "limavictor"
   }
 }
